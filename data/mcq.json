@@ -1,0 +1,552 @@
+[
+    {
+        "id": 1,
+        "question": "What is the SI unit of power?",
+        "options": [
+            "Joule",
+            "Watt",
+            "Newton",
+            "Pascal"
+        ],
+        "answer": "Watt"
+    },
+    {
+        "id": 2,
+        "question": "Which of the following is an example of a vector quantity?",
+        "options": [
+            "Speed",
+            "Mass",
+            "Temperature",
+            "Displacement"
+        ],
+        "answer": "Displacement"
+    },
+    {
+        "id": 3,
+        "question": "Which of the following statements about the law of conservation of energy is true?",
+        "options": [
+            "Energy can be created but not destroyed.",
+            "Energy can be destroyed but not created.",
+            "Energy cannot be created or destroyed, only transformed from one form to another.",
+            "Energy remains constant regardless of any changes."
+        ],
+        "answer": "Energy cannot be created or destroyed, only transformed from one form to another."
+    },
+    {
+        "id": 4,
+        "question": "What is the formula to calculate acceleration?",
+        "options": [
+            "v = u + at",
+            "a = (v - u) / t",
+            "F = ma",
+            "s = ut + (1/2)at^2"
+        ],
+        "answer": "a = (v - u) / t"
+    },
+    {
+        "id": 5,
+        "question": "What is the SI unit of electric charge?",
+        "options": [
+            "Ampere",
+            "Coulomb",
+            "Volt",
+            "Ohm"
+        ],
+        "answer": "Coulomb"
+    },
+    {
+        "id": 6,
+        "question": "Which of the following statements describes Newton's third law of motion?",
+        "options": [
+            "For every action, there is an equal and opposite reaction.",
+            "Force equals mass times acceleration.",
+            "An object at rest will remain at rest unless acted upon by an external force.",
+            "The acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass."
+        ],
+        "answer": "For every action, there is an equal and opposite reaction."
+    },
+    {
+        "id": 7,
+        "question": "What is the SI unit of frequency?",
+        "options": [
+            "Hertz",
+            "Joule",
+            "Newton",
+            "Watt"
+        ],
+        "answer": "Hertz"
+    },
+    {
+        "id": 8,
+        "question": "Which of the following is an example of a non-contact force?",
+        "options": [
+            "Friction",
+            "Tension",
+            "Gravitational force",
+            "Magnetic force"
+        ],
+        "answer": "Magnetic force"
+    },
+    {
+        "id": 9,
+        "question": "What is the SI unit of pressure?",
+        "options": [
+            "Pascal",
+            "Newton",
+            "Joule",
+            "Kilogram"
+        ],
+        "answer": "Pascal"
+    },
+    {
+        "id": 10,
+        "question": "What is the phenomenon of bending of light as it passes from one medium to another called?",
+        "options": [
+            "Reflection",
+            "Refraction",
+            "Diffraction",
+            "Dispersion"
+        ],
+        "answer": "Refraction"
+    },
+    {
+        "id": 11,
+        "question": "Which of the following is not a noble gas?",
+        "options": [
+            "Helium",
+            "Neon",
+            "Argon",
+            "Nitrogen"
+        ],
+        "answer": "Nitrogen"
+    },
+    {
+        "id": 12,
+        "question": "What is the chemical formula of glucose?",
+        "options": [
+            "C6H12O6",
+            "H2O",
+            "CO2",
+            "CH4"
+        ],
+        "answer": "C6H12O6"
+    },
+    {
+        "id": 13,
+        "question": "What is the process of converting a liquid into a gas called?",
+        "options": [
+            "Sublimation",
+            "Condensation",
+            "Evaporation",
+            "Fusion"
+        ],
+        "answer": "Evaporation"
+    },
+    {
+        "id": 14,
+        "question": "What is the chemical formula of sulfuric acid?",
+        "options": [
+            "H2SO3",
+            "H2SO4",
+            "H2S",
+            "H2CO3"
+        ],
+        "answer": "H2SO4"
+    },
+    {
+        "id": 15,
+        "question": "Which of the following is the process of a substance changing directly from a solid to a gas without passing through the liquid phase?",
+        "options": [
+            "Evaporation",
+            "Sublimation",
+            "Condensation",
+            "Deposition"
+        ],
+        "answer": "Sublimation"
+    },
+    {
+        "id": 16,
+        "question": "What is the pH of a solution with a hydrogen ion concentration of 1 x 10^-3 M?",
+        "options": [
+            "3",
+            "7",
+            "9",
+            "11"
+        ],
+        "answer": "3"
+    },
+    {
+        "id": 17,
+        "question": "Which of the following is not a greenhouse gas?",
+        "options": [
+            "Carbon dioxide",
+            "Methane",
+            "Nitrous oxide",
+            "Oxygen"
+        ],
+        "answer": "Oxygen"
+    },
+    {
+        "id": 18,
+        "question": "What is the chemical formula of table salt?",
+        "options": [
+            "NaOH",
+            "Na2CO3",
+            "NaCl",
+            "HCl"
+        ],
+        "answer": "NaCl"
+    },
+    {
+        "id": 19,
+        "question": "What is the process of conversion of a solid directly to a gas without passing through the liquid phase called?",
+        "options": [
+            "Evaporation",
+            "Sublimation",
+            "Condensation",
+            "Deposition"
+        ],
+        "answer": "Sublimation"
+    },
+    {
+        "id": 20,
+        "question": "Which of the following is responsible for protein synthesis?",
+        "options": [
+            "Ribosomes",
+            "Golgi apparatus",
+            "Lysosomes",
+            "Endoplasmic reticulum"
+        ],
+        "answer": "Ribosomes"
+    },
+    {
+        "id": 21,
+        "question": "What is the site of photosynthesis in plant cells?",
+        "options": [
+            "Mitochondria",
+            "Chloroplasts",
+            "Endoplasmic reticulum",
+            "Golgi apparatus"
+        ],
+        "answer": "Chloroplasts"
+    },
+    {
+        "id": 22,
+        "question": "What is the function of ribosomes in the cell?",
+        "options": [
+            "Energy production",
+            "Protein synthesis",
+            "Lipid synthesis",
+            "Waste elimination"
+        ],
+        "answer": "Protein synthesis"
+    },
+    {
+        "id": 23,
+        "question": "Which of the following is the powerhouse of the cell?",
+        "options": [
+            "Nucleus",
+            "Mitochondria",
+            "Golgi apparatus",
+            "Endoplasmic reticulum"
+        ],
+        "answer": "Mitochondria"
+    },
+    {
+        "id": 24,
+        "question": "Which of the following is responsible for carrying oxygen in the blood?",
+        "options": [
+            "Hemoglobin",
+            "Albumin",
+            "Insulin",
+            "Glucagon"
+        ],
+        "answer": "Hemoglobin"
+    },
+    {
+        "id": 25,
+        "question": "What is the function of the nucleus in the cell?",
+        "options": [
+            "Energy production",
+            "Protein synthesis",
+            "Storage of genetic information",
+            "Transportation of molecules"
+        ],
+        "answer": "Storage of genetic information"
+    },
+    {
+        "id": 26,
+        "question": "Which of the following is not a component of the cell membrane?",
+        "options": [
+            "Phospholipids",
+            "Proteins",
+            "Carbohydrates",
+            "Nucleic acids"
+        ],
+        "answer": "Nucleic acids"
+    },
+    {
+        "id": 27,
+        "question": "What is the process of breaking down glucose to release energy called?",
+        "options": [
+            "Photosynthesis",
+            "Fermentation",
+            "Cellular respiration",
+            "Transpiration"
+        ],
+        "answer": "Cellular respiration"
+    },
+    {
+        "id": 28,
+        "question": "Which of the following is responsible for the synthesis of proteins in the cell?",
+        "options": [
+            "Ribosomes",
+            "Golgi apparatus",
+            "Lysosomes",
+            "Endoplasmic reticulum"
+        ],
+        "answer": "Ribosomes"
+    },
+    {
+        "id": 29,
+        "question": "Which of the following is a primary function of the cell wall in plant cells?",
+        "options": [
+            "Storage of nutrients",
+            "Support and protection",
+            "Protein synthesis",
+            "Energy production"
+        ],
+        "answer": "Support and protection"
+    },
+    {
+        "id": 30,
+        "question": "What is the primary function of the stomata in plant leaves?",
+        "options": [
+            "Gas exchange",
+            "Photosynthesis",
+            "Water absorption",
+            "Nutrient transport"
+        ],
+        "answer": "Gas exchange"
+    },
+    {
+        "id": 31,
+        "question": "What is the term for the process by which plants lose water through small openings in their leaves?",
+        "options": [
+            "Transpiration",
+            "Respiration",
+            "Osmosis",
+            "Photosynthesis"
+        ],
+        "answer": "Transpiration"
+    },
+    {
+        "id": 32,
+        "question": "Which of the following is not a type of tissue in animals?",
+        "options": [
+            "Epithelial tissue",
+            "Connective tissue",
+            "Nervous tissue",
+            "Xylem tissue"
+        ],
+        "answer": "Xylem tissue"
+    },
+    {
+        "id": 33,
+        "question": "What is the main function of red blood cells?",
+        "options": [
+            "Defense against pathogens",
+            "Blood clotting",
+            "Transport of oxygen",
+            "Storage of nutrients"
+        ],
+        "answer": "Transport of oxygen"
+    },
+    {
+        "id": 34,
+        "question": "Which organ is responsible for pumping blood throughout the body?",
+        "options": [
+            "Lungs",
+            "Brain",
+            "Heart",
+            "Liver"
+        ],
+        "answer": "Heart"
+    },
+    {
+        "id": 35,
+        "question": "What is the process by which plants make their food using sunlight?",
+        "options": [
+            "Photosynthesis",
+            "Respiration",
+            "Transpiration",
+            "Fermentation"
+        ],
+        "answer": "Photosynthesis"
+    },
+    {
+        "id": 36,
+        "question": "Which gas is most abundant in the Earth's atmosphere?",
+        "options": [
+            "Oxygen",
+            "Carbon dioxide",
+            "Nitrogen",
+            "Hydrogen"
+        ],
+        "answer": "Nitrogen"
+    },
+    {
+        "id": 37,
+        "question": "What is the main component of the sun?",
+        "options": [
+            "Oxygen",
+            "Carbon",
+            "Hydrogen",
+            "Helium"
+        ],
+        "answer": "Hydrogen"
+    },
+    {
+        "id": 38,
+        "question": "What is the chemical symbol for gold?",
+        "options": [
+            "Ag",
+            "Au",
+            "Pb",
+            "Fe"
+        ],
+        "answer": "Au"
+    },
+    {
+        "id": 39,
+        "question": "Which planet is known as the Red Planet?",
+        "options": [
+            "Earth",
+            "Mars",
+            "Jupiter",
+            "Venus"
+        ],
+        "answer": "Mars"
+    },
+    {
+        "id": 40,
+        "question": "What is the boiling point of water at standard atmospheric pressure?",
+        "options": [
+            "0°C",
+            "50°C",
+            "100°C",
+            "150°C"
+        ],
+        "answer": "100°C"
+    },
+    {
+        "id": 41,
+        "question": "What is the largest organ in the human body?",
+        "options": [
+            "Heart",
+            "Liver",
+            "Skin",
+            "Lung"
+        ],
+        "answer": "Skin"
+    },
+    {
+        "id": 42,
+        "question": "What is the chemical formula of water?",
+        "options": [
+            "H2O",
+            "CO2",
+            "NaCl",
+            "H2O2"
+        ],
+        "answer": "H2O"
+    },
+    {
+        "id": 43,
+        "question": "Which element has the atomic number 1?",
+        "options": [
+            "Helium",
+            "Oxygen",
+            "Hydrogen",
+            "Carbon"
+        ],
+        "answer": "Hydrogen"
+    },
+    {
+        "id": 44,
+        "question": "What is the process of cell division in somatic cells called?",
+        "options": [
+            "Mitosis",
+            "Meiosis",
+            "Fission",
+            "Fusion"
+        ],
+        "answer": "Mitosis"
+    },
+    {
+        "id": 45,
+        "question": "What is the term for the amount of matter in an object?",
+        "options": [
+            "Weight",
+            "Mass",
+            "Volume",
+            "Density"
+        ],
+        "answer": "Mass"
+    },
+    {
+        "id": 46,
+        "question": "Which planet is known for its rings?",
+        "options": [
+            "Mars",
+            "Venus",
+            "Saturn",
+            "Jupiter"
+        ],
+        "answer": "Saturn"
+    },
+    {
+        "id": 47,
+        "question": "What is the primary gas found in the Earth's atmosphere?",
+        "options": [
+            "Oxygen",
+            "Nitrogen",
+            "Carbon dioxide",
+            "Hydrogen"
+        ],
+        "answer": "Nitrogen"
+    },
+    {
+        "id": 48,
+        "question": "What is the hardest natural substance on Earth?",
+        "options": [
+            "Gold",
+            "Iron",
+            "Diamond",
+            "Quartz"
+        ],
+        "answer": "Diamond"
+    },
+    {
+        "id": 49,
+        "question": "What is the study of weather called?",
+        "options": [
+            "Geology",
+            "Meteorology",
+            "Astronomy",
+            "Biology"
+        ],
+        "answer": "Meteorology"
+    },
+    {
+        "id": 50,
+        "question": "What is the basic unit of life?",
+        "options": [
+            "Cell",
+            "Tissue",
+            "Organ",
+            "Organ system"
+        ],
+        "answer": "Cell"
+    }
+]
