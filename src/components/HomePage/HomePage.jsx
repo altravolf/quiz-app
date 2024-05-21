@@ -4,23 +4,19 @@ import MainHeading from "../MainHeading/MainHeading";
 import { useForm } from "react-hook-form"
 import { useSnackbar } from "notistack";
 
-function HomePage() {
+
+function HomePage({ setUser }) {
 
     const { register, handleSubmit, formState: { errors }, reset } = useForm();
 
-
     const { enqueueSnackbar } = useSnackbar();
-
-
 
     const onClickSubmit = (data) => {
         enqueueSnackbar(`Welcome ${data.name}`, { variant: "success", autoHideDuration: 1500, anchorOrigin: { vertical: 'top', horizontal: 'right' } });
+        setUser(data.name);
 
         reset();
     }
-
-
-
 
     return (
         <div className="HomePage">
