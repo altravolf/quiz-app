@@ -1,12 +1,10 @@
 import './Questions.scss';
-import data from "../../../data/mcq.json";
 
 function Questions() {
 
     return (
         <div className="Questions mt-10 mb-8">
             <h3 className="md:text-2xl text-xl  font-bold ">
-                {data[0].question}
             </h3>
 
             <ol className="list-inside " >
@@ -15,7 +13,7 @@ function Questions() {
                     <span className="label-text">Red pill</span>
                 </label> */}
 
-                {
+                {/* {
                     data[0].options.map((option, index) => {
                         return (
                             <li className="label cursor-pointer justify-start gap-3" key={index}>
@@ -24,7 +22,7 @@ function Questions() {
                             </li>
                         );
                     })
-                }
+                } */}
             </ol>
         </div>
     );
