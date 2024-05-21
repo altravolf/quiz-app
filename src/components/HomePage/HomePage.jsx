@@ -1,7 +1,6 @@
 import './HomePage.scss';
 import MainHeading from "../MainHeading/MainHeading";
 
-import { useNavigate } from "react-router-dom";
 import { useForm } from "react-hook-form"
 import { useSnackbar } from "notistack";
 
@@ -9,7 +8,6 @@ function HomePage() {
 
     const { register, handleSubmit, formState: { errors }, reset } = useForm();
 
-    const navigate = useNavigate();
 
     const { enqueueSnackbar } = useSnackbar();
 
@@ -17,8 +15,6 @@ function HomePage() {
 
     const onClickSubmit = (data) => {
         enqueueSnackbar(`Welcome ${data.name}`, { variant: "success", autoHideDuration: 1500, anchorOrigin: { vertical: 'top', horizontal: 'right' } });
-
-        navigate("/quiz");
 
         reset();
     }
