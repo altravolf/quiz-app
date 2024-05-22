@@ -2,7 +2,7 @@
 import MainHeading from "../MainHeading/MainHeading";
 import Questions from "../Questions/Questions";
 import './QuizPage.scss';
-import { useContext, useEffect } from "react";
+import { useContext } from "react";
 import QuizContext from "../../context/quizContext";
 import SubmitModal from "../SubmitModal/SubmitModal";
 
@@ -30,11 +30,6 @@ function QuizPage() {
             }
         })
     }
-
-    useEffect(() => {
-        console.log(selectedAnswer)
-    }, [selectedAnswer])
-
 
     return (
         <div className="QuizPage lg:w-[60%] mx-auto">

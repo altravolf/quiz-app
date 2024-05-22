@@ -22,7 +22,6 @@ export default {
   daisyui: {
     themes: ["light", "dark"],
   },
-  darkMode: [],
+  darkMode: 'class', // Set to 'class' or 'media'
   important: true
 }
-
