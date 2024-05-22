@@ -11,18 +11,18 @@ export default {
       "noto-sans": ["Noto Sans", "sans-serif"],
     },
     listStyleType: {
-      alpha: 'lower-alpha', // Add this line
+      alpha: 'lower-alpha',
+      decimal: 'decimal'
     },
   },
   plugins: [
     require('daisyui'),
+    require('@tailwindcss/forms'),
   ],
-  important: true,
-
   daisyui: {
     themes: ["light", "dark"],
   },
-
-  darkMode: ["variant", "class", "selector", "media"],
+  darkMode: [],
+  important: true
 }
 

@@ -4,16 +4,22 @@ import MainHeading from "../MainHeading/MainHeading";
 import { useForm } from "react-hook-form"
 import { useSnackbar } from "notistack";
 
+import { useContext } from "react";
+import QuizContext from "../../context/quizContext";
 
-function HomePage({ setUser }) {
+function HomePage() {
 
     const { register, handleSubmit, formState: { errors }, reset } = useForm();
+
+    const { setUser, setStart, setQuiz } = useContext(QuizContext);
 
     const { enqueueSnackbar } = useSnackbar();
 
     const onClickSubmit = (data) => {
         enqueueSnackbar(`Welcome ${data.name}`, { variant: "success", autoHideDuration: 1500, anchorOrigin: { vertical: 'top', horizontal: 'right' } });
         setUser(data.name);
+        setStart(false);
+        setQuiz(true);
 
         reset();
     }

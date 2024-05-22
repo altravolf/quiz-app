@@ -3,10 +3,12 @@ import ThemeToggler from "./components/ThemeToggler/ThemeToggler"
 import HomePage from './components/HomePage/HomePage'
 import { useContext } from "react";
 import QuizContext from "./context/quizContext";
+import QuizPage from "./components/QuizPage/QuizPage";
+import ResultPage from "./components/ResultPage/ResultPage";
 
 function App() {
 
-  const { setUser, theme, setTheme } = useContext(QuizContext);
+  const { theme, setTheme, start, quiz, result } = useContext(QuizContext);
 
 
   return (
@@ -15,7 +17,13 @@ function App() {
 
       <div className="main-container container px-4 mx-auto">
 
-        <HomePage setUser={setUser} />
+
+        {start ? <HomePage /> : null}
+
+        {quiz ? <QuizPage /> : null}
+
+
+        {result ? <ResultPage /> : null}
 
       </div>
     </div>

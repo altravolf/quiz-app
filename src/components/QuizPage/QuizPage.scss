@@ -1,3 +1,20 @@
 .QuizPage {
-    /* Your component styles here */
+    ol {
+        li.main-question {
+            &::marker {
+                @apply md:text-2xl text-xl font-bold;
+            }
+        }
+
+        .cust-marker {
+            &::marker {
+                content: attr(data-marker) " ";
+            }
+        }
+    }
+
+    .bg-green-600 {
+        --tw-bg-opacity: 1 !important;
+        background-color: rgb(22 163 74 / var(--tw-bg-opacity)) !important;
+    }
 }
