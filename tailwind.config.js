@@ -20,7 +20,7 @@ export default {
     require('@tailwindcss/forms'),
   ],
   daisyui: {
-    themes: ["light", "dark"],
+    themes: ["light"],
   },
   darkMode: 'class', // Set to 'class' or 'media'
   important: true
